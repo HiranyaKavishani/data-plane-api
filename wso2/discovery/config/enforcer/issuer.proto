@@ -29,4 +29,7 @@ message Issuer {
 
     // JWT claim that communicates the consumerKey value
     string consumerKeyClaim = 6;
+
+    // FilePath of the public certificate mounted in enforcer container
+    string certificateFilePath = 7;
 }
