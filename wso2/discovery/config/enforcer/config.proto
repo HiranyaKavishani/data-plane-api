@@ -28,4 +28,6 @@ message Config {
     AuthService authService = 5;
 
     AmCredentials apimCredentials = 6;
+
+    Throttling throttlingConfig = 7;
 }
