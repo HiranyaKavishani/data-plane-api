@@ -31,4 +31,6 @@ message Config {
     AmCredentials apimCredentials = 6;
 
     JWTGenerator jwtGenerator = 7;
+
+    Throttling throttlingConfig = 8;
 }

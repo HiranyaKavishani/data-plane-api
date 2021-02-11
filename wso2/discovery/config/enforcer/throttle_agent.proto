@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+package wso2.discovery.config.enforcer;
+
+option go_package = "github.com/envoyproxy/go-control-plane/wso2/discovery/config/enforcer;enforcer";
+option java_package = "org.wso2.gateway.discovery.config.enforcer";
+option java_outer_classname = "ThrottleAgentProto";
+option java_multiple_files = true;
+
+// [#protodoc-title: ThrottleAgent]
+
+message ThrottleAgent {
+   string sslEnabledProtocols = 1;
+   string ciphers = 2;
+   int queueSize = 3;
+   int batchSize = 4;
+   int corePoolSize = 5;
+   int socketTimeoutMS = 6;
+   int maxPoolSize = 7;
+   int keepAliveTimeInPool = 8;
+   int reconnectionInterval = 9;
+   int maxTransportPoolSize = 10;
+   int maxIdleConnections = 11;
+   int evictionTimePeriod = 12;
+   int minIdleTimeInPool = 13;
+   int secureMaxTransportPoolSize = 14;
+   int secureMaxIdleConnections = 15;
+   int secureEvictionTimePeriod = 16;
+   int secureMinIdleTimeInPool = 17;
+}
