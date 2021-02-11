@@ -15,5 +15,4 @@ service ApplicationPolicyDiscoveryService {
   rpc StreamApplicationPolicies(stream envoy.service.discovery.v3.DiscoveryRequest)
       returns (stream envoy.service.discovery.v3.DiscoveryResponse) {
   }
-
 }
