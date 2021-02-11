@@ -10,9 +10,9 @@ option java_multiple_files = true;
 // [#protodoc-title: ThrottlePublisher]
 
 message ThrottlePublisher {
-   int maxIdleDataPublishingAgents = 1;
-   int initIdleObjectDataPublishingAgents = 2;
-   int publisherThreadPoolCoreSize = 3;
-   int publisherThreadPoolMaximumSize = 4;
-   int publisherThreadPoolKeepAliveTime = 5;
+   int32 maxIdleDataPublishingAgents = 1;
+   int32 initIdleObjectDataPublishingAgents = 2;
+   int32 publisherThreadPoolCoreSize = 3;
+   int32 publisherThreadPoolMaximumSize = 4;
+   int32 publisherThreadPoolKeepAliveTime = 5;
 }
