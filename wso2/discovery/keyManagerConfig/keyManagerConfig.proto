@@ -3,8 +3,8 @@ syntax = "proto3";
 package wso2.discovery.keyManagerConfig;
 
 option go_package =
-    "github.com/praminda/go-control-plane/wso2/discovery/keyManagerConfig;keyManagerConfig";
-option java_package = "org.wso2.gateway.discovery.keyManagerConfig";
+    "github.com/praminda/go-control-plane/wso2/discovery/km;km";
+option java_package = "org.wso2.gateway.discovery.km";
 option java_outer_classname = "KeyManagerConfigProto";
 option java_multiple_files = true;
 
