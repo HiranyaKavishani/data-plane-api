@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package wso2.discovery.keyManagerConfig;
+package wso2.discovery.keymgt;
 
 option go_package =
     "github.com/praminda/go-control-plane/wso2/discovery/km;km";
